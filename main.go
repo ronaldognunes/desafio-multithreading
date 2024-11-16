@@ -44,7 +44,6 @@ func main() {
 	}
 
 	input = strings.TrimSpace(input)
-	fmt.Println("CEP digitado2: ", input)
 
 	chanViaCEP := make(chan *ViaCEP)
 	chanBrasilCep := make(chan *BrasilCep)
